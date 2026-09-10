@@ -1,0 +1,12 @@
+{
+  "archive_created": "2026-08-10T15:50:20.708912",
+  "run_root": "/root/firac_fresh_binary_sft_grpo_v1",
+  "python_version": "3.10.13",
+  "platform": "Linux-6.7.4-200.fc39.x86_64-x86_64-with-glibc2.35",
+  "sft_latest_checkpoint": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417",
+  "sft_latest_checkpoint_step": 417,
+  "grpo_latest_checkpoint": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834",
+  "grpo_latest_checkpoint_step": 834,
+  "final_sft_adapter": "/root/firac_fresh_binary_sft_grpo_v1/sft_adapter",
+  "final_grpo_adapter": "/root/firac_fresh_binary_sft_grpo_v1/grpo_adapter"
+}

@@ -1,0 +1,9 @@
+{
+  "sample_allowed_auc": 0.5148749305910986,
+  "single_outcome_group_fraction": 0.008493205435651479,
+  "zero_reward_std_fraction": 0.0,
+  "highest_reward_correct_rate": 0.9950039968025579,
+  "mixed_groups": 9917,
+  "wrong_beats_correct_rate": 0.0,
+  "mean_correct_reward_advantage": 0.35042418529679753
+}

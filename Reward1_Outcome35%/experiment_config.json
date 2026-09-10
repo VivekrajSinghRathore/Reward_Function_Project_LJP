@@ -1,0 +1,32 @@
+{
+  "experiment": "R1_outcome35",
+  "starting_adapter": "/root/firac_fresh_binary_sft_grpo_v1/sft_adapter",
+  "reward_effective_weights": {
+    "format": 0.05,
+    "outcome": 0.35,
+    "issues": 0.15,
+    "rules": 0.3,
+    "authority": 0.15
+  },
+  "reward_nested_reasoning_weights": {
+    "outcome": 0.3684210526315789,
+    "issues": 0.15789473684210525,
+    "rules": 0.3157894736842105,
+    "authority": 0.15789473684210525
+  },
+  "format_weight": 0.05,
+  "reasoning_weight": 0.95,
+  "num_generations": 8,
+  "per_device_batch": 2,
+  "grad_accum": 16,
+  "generation_batch_size": 96,
+  "learning_rate": 8e-07,
+  "beta": 0.05,
+  "temperature": 1.0,
+  "epochs": 1.0,
+  "vllm_memory": 0.28,
+  "semantic_batch": 64,
+  "gradient_checkpointing": false,
+  "expected_steps": 834,
+  "expected_reward_calls": 834
+}

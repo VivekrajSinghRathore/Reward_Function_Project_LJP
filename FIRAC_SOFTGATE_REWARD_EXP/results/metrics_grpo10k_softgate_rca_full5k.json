@@ -1,0 +1,83 @@
+{
+  "adapter": "/root/firac_sft10k_from_tar/firac_grpo_10k_softgate_rca_3gpu_v1_5/adapter",
+  "tag": "grpo10k_softgate_rca_full5k",
+  "rows": 5000,
+  "world_size": 3,
+  "elapsed_hours_rank0": 3.823462797602018,
+  "mean_R_total": 0.3685298067352726,
+  "mean_R_format": 0.9614979999999607,
+  "mean_R_structure": 0.9978500000000003,
+  "mean_R_coverage": 0.9311858999999516,
+  "mean_R_outcome": 0.5554,
+  "mean_R_issues": 0.32644396825397015,
+  "mean_R_rules": 0.20872820596464867,
+  "mean_R_authority": 0.07471577031368454,
+  "mean_R_reasoning": 0.26335542851209126,
+  "outcome_accuracy": 0.5554,
+  "balanced_accuracy": 0.5275555555555556,
+  "macro_f1": 0.5249536475312423,
+  "weighted_f1": 0.5443268371650807,
+  "format_completion_rate": 0.995,
+  "format_valid_rate": 0.9948,
+  "unknown_rate": 0.0052,
+  "truncation_rate": 0.005,
+  "mean_completion_tokens": 484.2082,
+  "prediction_distribution": {
+    "allowed": 1452,
+    "dismissed": 3068,
+    "other": 454,
+    "unknown": 26
+  },
+  "per_class": {
+    "allowed": {
+      "precision": 0.6088154269972452,
+      "recall": 0.3928888888888889,
+      "f1": 0.4775796866558617,
+      "support": 2250
+    },
+    "dismissed": {
+      "precision": 0.5440026075619296,
+      "recall": 0.7417777777777778,
+      "f1": 0.6276795787890185,
+      "support": 2250
+    },
+    "other": {
+      "precision": 0.4933920704845815,
+      "recall": 0.448,
+      "f1": 0.469601677148847,
+      "support": 500
+    }
+  },
+  "confusion_labels": [
+    "allowed",
+    "dismissed",
+    "other",
+    "unknown"
+  ],
+  "confusion_matrix": [
+    [
+      884,
+      1223,
+      134,
+      9
+    ],
+    [
+      471,
+      1669,
+      96,
+      14
+    ],
+    [
+      97,
+      176,
+      224,
+      3
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
+}

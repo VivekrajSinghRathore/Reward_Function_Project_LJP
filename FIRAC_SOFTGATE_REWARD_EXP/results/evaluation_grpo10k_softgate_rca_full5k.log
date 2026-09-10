@@ -1,0 +1,102 @@
+W0807 01:33:07.833000 330081 site-packages/torch/distributed/run.py:774] 
+W0807 01:33:07.833000 330081 site-packages/torch/distributed/run.py:774] *****************************************
+W0807 01:33:07.833000 330081 site-packages/torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0807 01:33:07.833000 330081 site-packages/torch/distributed/run.py:774] *****************************************
+Evaluating 5,000 rows across 3 ranks.
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.04s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.87it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.64it/s]
+
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.25s/it]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.23s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.57it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.37it/s]
+
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.59it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.39it/s]
+Pre-encoding 12,372 unique reference strings...
+Reference cache size: 12,372
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  rank0 4/1667  (0.1 rows/s)
+  rank0 44/1667  (0.1 rows/s)
+  rank0 84/1667  (0.1 rows/s)
+  rank0 124/1667  (0.1 rows/s)
+  rank0 164/1667  (0.1 rows/s)
+  rank0 204/1667  (0.1 rows/s)
+  rank0 244/1667  (0.1 rows/s)
+  rank0 284/1667  (0.1 rows/s)
+  rank0 324/1667  (0.1 rows/s)
+  rank0 364/1667  (0.1 rows/s)
+  rank0 404/1667  (0.1 rows/s)
+  rank0 444/1667  (0.1 rows/s)
+  rank0 484/1667  (0.1 rows/s)
+  rank0 524/1667  (0.1 rows/s)
+  rank0 564/1667  (0.1 rows/s)
+  rank0 604/1667  (0.1 rows/s)
+  rank0 644/1667  (0.1 rows/s)
+  rank0 684/1667  (0.1 rows/s)
+  rank0 724/1667  (0.1 rows/s)
+  rank0 764/1667  (0.1 rows/s)
+  rank0 804/1667  (0.1 rows/s)
+  rank0 844/1667  (0.1 rows/s)
+  rank0 884/1667  (0.1 rows/s)
+  rank0 924/1667  (0.1 rows/s)
+  rank0 964/1667  (0.1 rows/s)
+  rank0 1004/1667  (0.1 rows/s)
+  rank0 1044/1667  (0.1 rows/s)
+  rank0 1084/1667  (0.1 rows/s)
+  rank0 1124/1667  (0.1 rows/s)
+  rank0 1164/1667  (0.1 rows/s)
+  rank0 1204/1667  (0.1 rows/s)
+  rank0 1244/1667  (0.1 rows/s)
+  rank0 1284/1667  (0.1 rows/s)
+  rank0 1324/1667  (0.1 rows/s)
+  rank0 1364/1667  (0.1 rows/s)
+  rank0 1404/1667  (0.1 rows/s)
+  rank0 1444/1667  (0.1 rows/s)
+  rank0 1484/1667  (0.1 rows/s)
+  rank0 1524/1667  (0.1 rows/s)
+  rank0 1564/1667  (0.1 rows/s)
+  rank0 1604/1667  (0.1 rows/s)
+  rank0 1644/1667  (0.1 rows/s)
+[rank 0] wrote 1,667 rows to /root/firac_sft10k_from_tar/firac_grpo_10k_softgate_rca_3gpu_v1_5/results/.grpo10k_softgate_rca_full5k.rank0.json
+[rank 1] wrote 1,667 rows to /root/firac_sft10k_from_tar/firac_grpo_10k_softgate_rca_3gpu_v1_5/results/.grpo10k_softgate_rca_full5k.rank1.json
+[rank 2] wrote 1,666 rows to /root/firac_sft10k_from_tar/firac_grpo_10k_softgate_rca_3gpu_v1_5/results/.grpo10k_softgate_rca_full5k.rank2.json
+/opt/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:2801: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+============================================================
+EVALUATION: grpo10k_softgate_rca_full5k
+============================================================
+  adapter                   : /root/firac_sft10k_from_tar/firac_grpo_10k_softgate_rca_3gpu_v1_5/adapter
+  tag                       : grpo10k_softgate_rca_full5k
+  rows                      : 5000
+  world_size                : 3
+  elapsed_hours_rank0       : 3.8235
+  mean_R_total              : 0.3685
+  mean_R_format             : 0.9615
+  mean_R_structure          : 0.9979
+  mean_R_coverage           : 0.9312
+  mean_R_outcome            : 0.5554
+  mean_R_issues             : 0.3264
+  mean_R_rules              : 0.2087
+  mean_R_authority          : 0.0747
+  mean_R_reasoning          : 0.2634
+  outcome_accuracy          : 0.5554
+  balanced_accuracy         : 0.5276
+  macro_f1                  : 0.5250
+  weighted_f1               : 0.5443
+  format_completion_rate    : 0.9950
+  format_valid_rate         : 0.9948
+  unknown_rate              : 0.0052
+  truncation_rate           : 0.0050
+  mean_completion_tokens    : 484.2082
+  prediction_distribution   : {'allowed': 1452, 'dismissed': 3068, 'other': 454, 'unknown': 26}
+  per_class                 : {'allowed': {'precision': 0.6088154269972452, 'recall': 0.3928888888888889, 'f1': 0.4775796866558617, 'support': 2250}, 'dismissed': {'precision': 0.5440026075619296, 'recall': 0.7417777777777778, 'f1': 0.6276795787890185, 'support': 2250}, 'other': {'precision': 0.4933920704845815, 'recall': 0.448, 'f1': 0.469601677148847, 'support': 500}}
+  confusion_labels          : ['allowed', 'dismissed', 'other', 'unknown']
+  confusion_matrix          : [[884, 1223, 134, 9], [471, 1669, 96, 14], [97, 176, 224, 3], [0, 0, 0, 0]]

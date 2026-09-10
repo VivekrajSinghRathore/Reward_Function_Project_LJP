@@ -1,0 +1,68 @@
+{
+  "adapter": "/root/firac_fresh_binary_experiment/qwen3_4b_capacity_control_r0_reward/sft_adapter",
+  "tag": "qwen3_4b_fresh_sft_heldout4500",
+  "task": "binary_allowed_vs_dismissed",
+  "rows": 4500,
+  "world_size": 3,
+  "elapsed_hours_rank0": 3.6482593436373603,
+  "mean_R_total": 0.37983784510282564,
+  "mean_R_format_soft": 0.9653938333332953,
+  "mean_R_format": 0.9628471111110731,
+  "mean_R_structure": 0.9985777777777779,
+  "mean_R_coverage": 0.9322098888888484,
+  "mean_R_outcome": 0.5484444444444444,
+  "mean_R_issues": 0.36209541446208277,
+  "mean_R_rules": 0.22285153952418119,
+  "mean_R_authority": 0.07286649661616615,
+  "mean_R_reasoning": 0.27650443541509445,
+  "outcome_accuracy": 0.5484444444444444,
+  "balanced_accuracy": 0.5484444444444445,
+  "macro_f1": 0.5484610521544475,
+  "weighted_f1": 0.5484610521544475,
+  "format_completion_rate": 0.9964444444444445,
+  "format_valid_rate": 0.996,
+  "unknown_rate": 0.004,
+  "truncation_rate": 0.004,
+  "mean_completion_tokens": 488.374,
+  "prediction_distribution": {
+    "allowed": 2020,
+    "dismissed": 2462,
+    "unknown": 18
+  },
+  "per_class": {
+    "allowed": {
+      "precision": 0.5564356435643565,
+      "recall": 0.49955555555555553,
+      "f1": 0.5264637002341921,
+      "support": 2250
+    },
+    "dismissed": {
+      "precision": 0.545897644191714,
+      "recall": 0.5973333333333334,
+      "f1": 0.5704584040747029,
+      "support": 2250
+    }
+  },
+  "confusion_labels": [
+    "allowed",
+    "dismissed",
+    "unknown"
+  ],
+  "confusion_matrix": [
+    [
+      1124,
+      1118,
+      8
+    ],
+    [
+      896,
+      1344,
+      10
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ]
+}

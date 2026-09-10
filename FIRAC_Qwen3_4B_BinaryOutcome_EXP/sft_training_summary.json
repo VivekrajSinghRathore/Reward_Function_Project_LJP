@@ -1,0 +1,51 @@
+{
+  "stage": "fresh_binary_sft10k",
+  "base_model": "Qwen/Qwen3-1.7B",
+  "previous_adapter_loaded": false,
+  "binary_only": true,
+  "unique_training_cases": 10000,
+  "unique_train_counts": {
+    "allowed": 5000,
+    "dismissed": 5000
+  },
+  "physical_training_exposures": 10008,
+  "padding_exposures": 8,
+  "epochs": 1.0,
+  "world_size": 3,
+  "per_device_batch": 2,
+  "gradient_accumulation": 4,
+  "effective_batch": 24,
+  "expected_steps": 417,
+  "actual_steps": 417,
+  "completion_only_loss": true,
+  "qwen_thinking": false,
+  "max_length": 1664,
+  "learning_rate": 0.0001,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "lora_bias": "none",
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "gradient_checkpointing": false,
+  "elapsed_hours": 0.4336273969544305,
+  "rank0_peak_memory_gib": 19.287025928497314,
+  "metrics": {
+    "train_runtime": 1560.2591,
+    "train_samples_per_second": 6.414,
+    "train_steps_per_second": 0.267,
+    "total_flos": 9.419921385586688e+16,
+    "train_loss": 1.0266395552838734,
+    "entropy": 1.3585935682058334,
+    "num_tokens": 10379429.0,
+    "mean_token_accuracy": 0.7697947695851326,
+    "epoch": 1.0
+  }
+}

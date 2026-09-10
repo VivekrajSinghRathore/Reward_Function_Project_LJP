@@ -1,0 +1,22 @@
+{
+  "_data_files": [
+    {
+      "filename": "data-00000-of-00001.arrow"
+    }
+  ],
+  "_fingerprint": "95c4260ccb6985f9",
+  "_format_columns": [
+    "case_id",
+    "is_padding",
+    "outcome_label",
+    "prompt",
+    "reference_authorities",
+    "reference_conclusion_text",
+    "reference_issues",
+    "reference_rules"
+  ],
+  "_format_kwargs": {},
+  "_format_type": null,
+  "_output_all_columns": false,
+  "_split": null
+}

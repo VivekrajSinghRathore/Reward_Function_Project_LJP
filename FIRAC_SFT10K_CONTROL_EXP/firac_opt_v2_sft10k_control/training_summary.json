@@ -1,0 +1,33 @@
+{
+  "experiment": "SFT-10K control continued from archived V2 SFT adapter",
+  "base_model": "Qwen/Qwen3-1.7B",
+  "start_adapter": "/root/firac_sft10k_from_tar/firac_qwen3_1_7b_sft_v2_adapter",
+  "output_adapter": "/root/firac_sft10k_from_tar/firac_qwen3_1_7b_sft_v2_10k_control_adapter",
+  "training_exposures": 11000,
+  "unique_training_cases": 10000,
+  "world_size": 3,
+  "epochs": 1.0,
+  "per_device_batch": 1,
+  "gradient_accumulation": 8,
+  "global_effective_batch": 24,
+  "approximate_steps": 459,
+  "actual_steps": 459,
+  "learning_rate": 0.0001,
+  "max_length": 1536,
+  "precision": "torch.bfloat16",
+  "quantisation": "none",
+  "loss_scope": "completion_only",
+  "elapsed_hours": 0.624479834371143,
+  "rank0_peak_memory_gib": 5.372715473175049,
+  "metrics": {
+    "train_runtime": 2247.5928,
+    "train_samples_per_second": 4.894,
+    "train_steps_per_second": 0.204,
+    "total_flos": 9.683724387169075e+16,
+    "train_loss": 0.9261268943483274,
+    "entropy": 0.9169970261516855,
+    "num_tokens": 11308283.0,
+    "mean_token_accuracy": 0.7779622762950499,
+    "epoch": 1.0
+  }
+}

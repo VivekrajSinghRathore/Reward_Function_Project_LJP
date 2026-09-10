@@ -1,0 +1,82 @@
+{
+  "adapter": "/root/firac_opt_v2/grpo_full_adapter",
+  "tag": "grpo_v2_full5k",
+  "rows": 5000,
+  "elapsed_hours": 1.0840361771980922,
+  "mean_R_total": 0.3089377681602432,
+  "mean_R_format": 0.9625741499999618,
+  "mean_R_structure": 0.9974900000000001,
+  "mean_R_coverage": 0.9324422999999525,
+  "mean_R_outcome": 0.4778,
+  "mean_R_issues": 0.32439968253968443,
+  "mean_R_rules": 0.2109950378073515,
+  "mean_R_authority": 0.07281850648890678,
+  "mean_R_reasoning": 0.3196714719331129,
+  "outcome_accuracy": 0.4778,
+  "balanced_accuracy": 0.38451851851851854,
+  "macro_f1": 0.3838031766990408,
+  "weighted_f1": 0.4497568050999964,
+  "format_completion_rate": 0.9952,
+  "format_valid_rate": 0.995,
+  "unknown_rate": 0.0048,
+  "truncation_rate": 0.0036,
+  "mean_completion_tokens": 484.0066,
+  "prediction_distribution": {
+    "allowed": 1485,
+    "dismissed": 3387,
+    "other": 104,
+    "unknown": 24
+  },
+  "per_class": {
+    "allowed": {
+      "precision": 0.48215488215488217,
+      "recall": 0.31822222222222224,
+      "f1": 0.38340026773761715,
+      "support": 2250
+    },
+    "dismissed": {
+      "precision": 0.4765279007971656,
+      "recall": 0.7173333333333334,
+      "f1": 0.572645023948909,
+      "support": 2250
+    },
+    "other": {
+      "precision": 0.5673076923076923,
+      "recall": 0.118,
+      "f1": 0.19536423841059603,
+      "support": 500
+    }
+  },
+  "confusion_labels": [
+    "allowed",
+    "dismissed",
+    "other",
+    "unknown"
+  ],
+  "confusion_matrix": [
+    [
+      716,
+      1492,
+      28,
+      14
+    ],
+    [
+      611,
+      1614,
+      17,
+      8
+    ],
+    [
+      158,
+      281,
+      59,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "fresh_training_from_raw_qwen": true,
+  "unique_training_cases": 10000,
+  "unique_train_counts": {
+    "allowed": 5000,
+    "dismissed": 5000
+  },
+  "physical_exposures_for_both_sft_and_grpo": 10008,
+  "schedule_counts": {
+    "allowed": 5004,
+    "dismissed": 5004
+  },
+  "padding_exposures": 8,
+  "heldout_cases": 4500,
+  "heldout_counts": {
+    "allowed": 2250,
+    "dismissed": 2250
+  },
+  "other_training_references": 0,
+  "other_heldout_references": 0,
+  "same_prompt_contract_sft_grpo": true,
+  "heldout_preserves_historical_binary_ids": true
+}

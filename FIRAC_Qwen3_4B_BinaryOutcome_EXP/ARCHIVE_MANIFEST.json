@@ -1,0 +1,800 @@
+[
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_adapter/README.md",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_adapter/README.md",
+    "description": "FINAL SFT ADAPTER",
+    "size_bytes": 5196,
+    "sha256": "a706629d571ff756b3860b62034623ad1869103599ff2424720a0f9a180cfd01"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_adapter/adapter_config.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_adapter/adapter_config.json",
+    "description": "FINAL SFT ADAPTER",
+    "size_bytes": 1094,
+    "sha256": "6a5b77bf11d459b701c2991b651f57f3668d26499156486e1b66620f217cc740"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_adapter/adapter_model.safetensors",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_adapter/adapter_model.safetensors",
+    "description": "FINAL SFT ADAPTER",
+    "size_bytes": 69782384,
+    "sha256": "b0947ce7808cadb74d8ca6a37b30376b91a55e54926a75d2404ed3101de89a93"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_adapter/added_tokens.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_adapter/added_tokens.json",
+    "description": "FINAL SFT ADAPTER",
+    "size_bytes": 707,
+    "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_adapter/chat_template.jinja",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_adapter/chat_template.jinja",
+    "description": "FINAL SFT ADAPTER",
+    "size_bytes": 4168,
+    "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_adapter/merges.txt",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_adapter/merges.txt",
+    "description": "FINAL SFT ADAPTER",
+    "size_bytes": 1671853,
+    "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_adapter/special_tokens_map.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_adapter/special_tokens_map.json",
+    "description": "FINAL SFT ADAPTER",
+    "size_bytes": 613,
+    "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_adapter/tokenizer.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_adapter/tokenizer.json",
+    "description": "FINAL SFT ADAPTER",
+    "size_bytes": 11422654,
+    "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_adapter/tokenizer_config.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_adapter/tokenizer_config.json",
+    "description": "FINAL SFT ADAPTER",
+    "size_bytes": 5404,
+    "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_adapter/vocab.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_adapter/vocab.json",
+    "description": "FINAL SFT ADAPTER",
+    "size_bytes": 2776833,
+    "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_adapter/README.md",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_adapter/README.md",
+    "description": "FINAL GRPO ADAPTER",
+    "size_bytes": 5197,
+    "sha256": "aaeca350da77325307e71b8a455abec24f8c059a9d79e426648626f4faa171b3"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_adapter/adapter_config.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_adapter/adapter_config.json",
+    "description": "FINAL GRPO ADAPTER",
+    "size_bytes": 1094,
+    "sha256": "92337c67455ba69c7b46c8b5e20fabb5193a49bb3d1f10d170f600c3a920cfa0"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_adapter/adapter_model.safetensors",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_adapter/adapter_model.safetensors",
+    "description": "FINAL GRPO ADAPTER",
+    "size_bytes": 69782384,
+    "sha256": "e021aeb57418ddac2c618759452cc4c0b81bf47405d0c4c3811dec16168487b8"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_adapter/added_tokens.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_adapter/added_tokens.json",
+    "description": "FINAL GRPO ADAPTER",
+    "size_bytes": 707,
+    "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_adapter/chat_template.jinja",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_adapter/chat_template.jinja",
+    "description": "FINAL GRPO ADAPTER",
+    "size_bytes": 4168,
+    "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_adapter/merges.txt",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_adapter/merges.txt",
+    "description": "FINAL GRPO ADAPTER",
+    "size_bytes": 1671853,
+    "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_adapter/special_tokens_map.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_adapter/special_tokens_map.json",
+    "description": "FINAL GRPO ADAPTER",
+    "size_bytes": 613,
+    "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_adapter/tokenizer.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_adapter/tokenizer.json",
+    "description": "FINAL GRPO ADAPTER",
+    "size_bytes": 11422821,
+    "sha256": "67cc0080ffd7555f723f423c27cfef314e1ad9d335c8b79f465c5faba1ed478b"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_adapter/tokenizer_config.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_adapter/tokenizer_config.json",
+    "description": "FINAL GRPO ADAPTER",
+    "size_bytes": 5404,
+    "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_adapter/vocab.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_adapter/vocab.json",
+    "description": "FINAL GRPO ADAPTER",
+    "size_bytes": 2776833,
+    "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/README.md",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/README.md",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 5196,
+    "sha256": "a706629d571ff756b3860b62034623ad1869103599ff2424720a0f9a180cfd01"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/adapter_config.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/adapter_config.json",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 1094,
+    "sha256": "6a5b77bf11d459b701c2991b651f57f3668d26499156486e1b66620f217cc740"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/adapter_model.safetensors",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/adapter_model.safetensors",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 69782384,
+    "sha256": "b0947ce7808cadb74d8ca6a37b30376b91a55e54926a75d2404ed3101de89a93"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/added_tokens.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/added_tokens.json",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 707,
+    "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/chat_template.jinja",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/chat_template.jinja",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 4168,
+    "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/merges.txt",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/merges.txt",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 1671853,
+    "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/optimizer.pt",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/optimizer.pt",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 139796091,
+    "sha256": "9909235d3570544a77c68c25a1ed85ae25e63949ee31aa260bc8cd42935092f5"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/rng_state_0.pth",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/rng_state_0.pth",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 15237,
+    "sha256": "0071aef3c344674d471bd356e393fbbc1eb40c4e61da7e5da55c21a3fa1250a0"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/rng_state_1.pth",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/rng_state_1.pth",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 15237,
+    "sha256": "3917652db923da3f14119e6220b1a672dd47c4a3edfd274bba58c938ba59d2e5"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/rng_state_2.pth",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/rng_state_2.pth",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 15237,
+    "sha256": "781d70dbe844aa54481b49fc4d11ceb056656f2e12624b92df7ca93ef5d5808c"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/scheduler.pt",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/scheduler.pt",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 1465,
+    "sha256": "a155a598d432a7c2b26f53606f98f340c403f9ada03c00db57c09f863e0c5aa9"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/special_tokens_map.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/special_tokens_map.json",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 613,
+    "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/tokenizer.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/tokenizer.json",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 11422654,
+    "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/tokenizer_config.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/tokenizer_config.json",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 5404,
+    "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/trainer_state.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/trainer_state.json",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 25096,
+    "sha256": "f08015ce4f1e06760037dce5640f8905106fe24535f074f841f25f9c9f1663e9"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/training_args.bin",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/training_args.bin",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 6289,
+    "sha256": "a4819ad0662357b826748dc2a0155ee63919937e3551fdaab526520ff975b05d"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_checkpoints/checkpoint-417/vocab.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_checkpoints/checkpoint-417/vocab.json",
+    "description": "LATEST SFT CHECKPOINT STEP 417",
+    "size_bytes": 2776833,
+    "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/README.md",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/README.md",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 5197,
+    "sha256": "aaeca350da77325307e71b8a455abec24f8c059a9d79e426648626f4faa171b3"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/adapter_config.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/adapter_config.json",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 1094,
+    "sha256": "92337c67455ba69c7b46c8b5e20fabb5193a49bb3d1f10d170f600c3a920cfa0"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/adapter_model.safetensors",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/adapter_model.safetensors",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 69782384,
+    "sha256": "e021aeb57418ddac2c618759452cc4c0b81bf47405d0c4c3811dec16168487b8"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/added_tokens.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/added_tokens.json",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 707,
+    "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/chat_template.jinja",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/chat_template.jinja",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 4168,
+    "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/merges.txt",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/merges.txt",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 1671853,
+    "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/optimizer.pt",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/optimizer.pt",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 139796091,
+    "sha256": "5d9a404f7999b9c4c66a7de8f9f596056f322394df4d33a715a5a95f709157ee"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/ref/adapter_config.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/ref/adapter_config.json",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 1094,
+    "sha256": "92337c67455ba69c7b46c8b5e20fabb5193a49bb3d1f10d170f600c3a920cfa0"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/ref/adapter_model.safetensors",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/ref/adapter_model.safetensors",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 69782384,
+    "sha256": "b0947ce7808cadb74d8ca6a37b30376b91a55e54926a75d2404ed3101de89a93"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/rng_state_0.pth",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/rng_state_0.pth",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 15109,
+    "sha256": "ffca1f213ae6b06172ee688e224ecabcfcea4f1bf74b3c4e5a0f553130a56c8c"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/rng_state_1.pth",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/rng_state_1.pth",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 15173,
+    "sha256": "fad7ca51741fb1969cd813182fddf97420bace3a39268ebd796e0b296943465a"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/rng_state_2.pth",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/rng_state_2.pth",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 15173,
+    "sha256": "7bca126a14761109f4a7dac188dcb8949fa49a0596e36598df07078b065e2dba"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/scheduler.pt",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/scheduler.pt",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 1465,
+    "sha256": "7fe2bcf839d4a5f04048ad7258876c64364c518d99903da8d4ab9e60b75db3bf"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/special_tokens_map.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/special_tokens_map.json",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 613,
+    "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/tokenizer.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/tokenizer.json",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 11422821,
+    "sha256": "67cc0080ffd7555f723f423c27cfef314e1ad9d335c8b79f465c5faba1ed478b"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/tokenizer_config.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/tokenizer_config.json",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 5404,
+    "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/trainer_state.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/trainer_state.json",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 1139304,
+    "sha256": "fcfd9fa1de5b7298ce635a91389a2d4cda749a2baddf3d5e1531bca2af572552"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/training_args.bin",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/training_args.bin",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 7313,
+    "sha256": "e0e5615541abad749cf212b633dccff731d2072ce765ebf73f41fcc08842b972"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_checkpoints/checkpoint-834/vocab.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_checkpoints/checkpoint-834/vocab.json",
+    "description": "LATEST GRPO CHECKPOINT STEP 834",
+    "size_bytes": 2776833,
+    "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/workspace/.ipynb_checkpoints/train_sft_binary10k_fresh_3gpu-checkpoint.py",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/workspace/.ipynb_checkpoints/train_sft_binary10k_fresh_3gpu-checkpoint.py",
+    "description": "TRAINING AND EVALUATION SOURCE CODE",
+    "size_bytes": 14422,
+    "sha256": "d1de6a00dffcfba57b9fe52a01abd0bc007668461cd204ede8b76f148edcdb49"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/workspace/__pycache__/evaluate_firac_binary_3gpu_no_nccl.cpython-310.pyc",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/workspace/__pycache__/evaluate_firac_binary_3gpu_no_nccl.cpython-310.pyc",
+    "description": "TRAINING AND EVALUATION SOURCE CODE",
+    "size_bytes": 13617,
+    "sha256": "016ca39c2f2701e2a0bfcb7d89fa56e0a849661a6b09fc83d2c3445f9cb32640"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/workspace/__pycache__/firac_binary_soft_rca.cpython-310.pyc",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/workspace/__pycache__/firac_binary_soft_rca.cpython-310.pyc",
+    "description": "TRAINING AND EVALUATION SOURCE CODE",
+    "size_bytes": 20557,
+    "sha256": "9463808976a4da6deeccfb49d6f50db871db93c48f974d6c52e3ec8eb8f4a4e0"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/workspace/__pycache__/firac_common.cpython-310.pyc",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/workspace/__pycache__/firac_common.cpython-310.pyc",
+    "description": "TRAINING AND EVALUATION SOURCE CODE",
+    "size_bytes": 38424,
+    "sha256": "40796ba0f62d1d3fab95ad0231f546e18040f710f0b2fa30e7da86358895e286"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/workspace/__pycache__/train_grpo_binary10k_fresh_3gpu.cpython-310.pyc",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/workspace/__pycache__/train_grpo_binary10k_fresh_3gpu.cpython-310.pyc",
+    "description": "TRAINING AND EVALUATION SOURCE CODE",
+    "size_bytes": 43419,
+    "sha256": "fc6b46a9383d7618b3be1dc552b58b36e8c2a6123f89e741add856bf72736629"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/workspace/__pycache__/train_sft_binary10k_fresh_3gpu.cpython-310.pyc",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/workspace/__pycache__/train_sft_binary10k_fresh_3gpu.cpython-310.pyc",
+    "description": "TRAINING AND EVALUATION SOURCE CODE",
+    "size_bytes": 10858,
+    "sha256": "f9543c2605719d7a7ef48f7cdebb605ff34735fa59d7c47d0744b363c574ba0a"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/workspace/evaluate_firac_binary_3gpu_no_nccl.py",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/workspace/evaluate_firac_binary_3gpu_no_nccl.py",
+    "description": "TRAINING AND EVALUATION SOURCE CODE",
+    "size_bytes": 14796,
+    "sha256": "0c664fb9fa347da0669c0dd884073183b1dd653af0a3528e3d3cb48cceeb992b"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/workspace/firac_binary_soft_rca.py",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/workspace/firac_binary_soft_rca.py",
+    "description": "TRAINING AND EVALUATION SOURCE CODE",
+    "size_bytes": 24579,
+    "sha256": "93766e2f51bae5dfb4507c50d93ee9e43f0b7c88a6b116a368be38e5b38918a5"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/workspace/firac_common.py",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/workspace/firac_common.py",
+    "description": "TRAINING AND EVALUATION SOURCE CODE",
+    "size_bytes": 45800,
+    "sha256": "7b33f024247f49c78d3331cd351de3ac8dfc6eaa246a9e8573f378ccfa13f7af"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/workspace/train_grpo_binary10k_fresh_3gpu.py",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/workspace/train_grpo_binary10k_fresh_3gpu.py",
+    "description": "TRAINING AND EVALUATION SOURCE CODE",
+    "size_bytes": 65730,
+    "sha256": "bcc43048f526453d26059ab338be7a610eb9614748e8508a4545d6ac83a96325"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/workspace/train_sft_binary10k_fresh_3gpu.py",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/workspace/train_sft_binary10k_fresh_3gpu.py",
+    "description": "TRAINING AND EVALUATION SOURCE CODE",
+    "size_bytes": 14422,
+    "sha256": "d1de6a00dffcfba57b9fe52a01abd0bc007668461cd204ede8b76f148edcdb49"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/prepared/experiment_manifest.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/prepared/experiment_manifest.json",
+    "description": "PREPARED TRAIN/EVALUATION DATASETS",
+    "size_bytes": 555,
+    "sha256": "8ab180d11597b1702990fa62f9eea23aee0027f315dbd73dac75f76b676e45c1"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/prepared/grpo_train_binary_schedule/data-00000-of-00001.arrow",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/prepared/grpo_train_binary_schedule/data-00000-of-00001.arrow",
+    "description": "PREPARED TRAIN/EVALUATION DATASETS",
+    "size_bytes": 48384688,
+    "sha256": "3266a40f5481b34c9647af2b44d6ea3a05714a744f00668f833761c746fb9f82"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/prepared/grpo_train_binary_schedule/dataset_info.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/prepared/grpo_train_binary_schedule/dataset_info.json",
+    "description": "PREPARED TRAIN/EVALUATION DATASETS",
+    "size_bytes": 2193,
+    "sha256": "78c82db55a775ab498dfffb82f800ec6e578a24e23ae659dd649249072a2e1a1"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/prepared/grpo_train_binary_schedule/state.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/prepared/grpo_train_binary_schedule/state.json",
+    "description": "PREPARED TRAIN/EVALUATION DATASETS",
+    "size_bytes": 424,
+    "sha256": "ae77f5b073e560fa4fa9bc00826ff09a89123fe1ce07954e10a55ac75097e526"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/prepared/heldout_eval_binary/data-00000-of-00001.arrow",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/prepared/heldout_eval_binary/data-00000-of-00001.arrow",
+    "description": "PREPARED TRAIN/EVALUATION DATASETS",
+    "size_bytes": 21767680,
+    "sha256": "3ba0925d2cef5f6ddbe6e7d94cc34057255d15c30b6d8b14b1840e0afab4fcc2"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/prepared/heldout_eval_binary/dataset_info.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/prepared/heldout_eval_binary/dataset_info.json",
+    "description": "PREPARED TRAIN/EVALUATION DATASETS",
+    "size_bytes": 2193,
+    "sha256": "72e9584082e64aca29b3facf3f0420182b5960f9108b0fa9ce672539d7658aab"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/prepared/heldout_eval_binary/state.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/prepared/heldout_eval_binary/state.json",
+    "description": "PREPARED TRAIN/EVALUATION DATASETS",
+    "size_bytes": 424,
+    "sha256": "e45fc1d8a8edf63e0002203b556fa973bc489bfa6c212dc7fc04873377ffa546"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/prepared/sft_train_binary_schedule/cache-4bc9ec928213f0ce.arrow",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/prepared/sft_train_binary_schedule/cache-4bc9ec928213f0ce.arrow",
+    "description": "PREPARED TRAIN/EVALUATION DATASETS",
+    "size_bytes": 170070880,
+    "sha256": "917ef7c371eeb15957d533fd39680b6546ef770fe3675018ef83ddb64968a784"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/prepared/sft_train_binary_schedule/cache-aef2689e94f100f4.arrow",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/prepared/sft_train_binary_schedule/cache-aef2689e94f100f4.arrow",
+    "description": "PREPARED TRAIN/EVALUATION DATASETS",
+    "size_bytes": 170070880,
+    "sha256": "ecc5f8f6bc498a2e1848c62da288e362fa97cd4fc5c206e3914d175e2d9e6662"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/prepared/sft_train_binary_schedule/cache-c599bf8434f7db3e.arrow",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/prepared/sft_train_binary_schedule/cache-c599bf8434f7db3e.arrow",
+    "description": "PREPARED TRAIN/EVALUATION DATASETS",
+    "size_bytes": 45434968,
+    "sha256": "ba240d703eacecfe046c8d62326e97060dc5422e931d07b9912cd50f26f7ea11"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/prepared/sft_train_binary_schedule/data-00000-of-00001.arrow",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/prepared/sft_train_binary_schedule/data-00000-of-00001.arrow",
+    "description": "PREPARED TRAIN/EVALUATION DATASETS",
+    "size_bytes": 45759320,
+    "sha256": "893512285988f7bdbb21ede74bf179aa6cc1716fc7db8271a29ea44c329bb31f"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/prepared/sft_train_binary_schedule/dataset_info.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/prepared/sft_train_binary_schedule/dataset_info.json",
+    "description": "PREPARED TRAIN/EVALUATION DATASETS",
+    "size_bytes": 1769,
+    "sha256": "a4e2f227a80bb63b47a9445a7a9e048be0c030f6f27b8a772df344603fa4eedb"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/prepared/sft_train_binary_schedule/state.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/prepared/sft_train_binary_schedule/state.json",
+    "description": "PREPARED TRAIN/EVALUATION DATASETS",
+    "size_bytes": 333,
+    "sha256": "68136fac580f3919b27eb7bad7f936ffbf1e1ade0ef6c7ea889cda8df99bef72"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/results/.ipynb_checkpoints/metrics_fresh_binary_sft10k_heldout4500-checkpoint.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/results/.ipynb_checkpoints/metrics_fresh_binary_sft10k_heldout4500-checkpoint.json",
+    "description": "SFT AND GRPO EVALUATION RESULTS",
+    "size_bytes": 1674,
+    "sha256": "62249d9301a479625f1779cde61cf7ab06ae3bd5be4d0f85e95d788c5d050e2a"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/results/.ipynb_checkpoints/per_case_fresh_binary_sft10k_heldout4500-checkpoint.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/results/.ipynb_checkpoints/per_case_fresh_binary_sft10k_heldout4500-checkpoint.json",
+    "description": "SFT AND GRPO EVALUATION RESULTS",
+    "size_bytes": 23544590,
+    "sha256": "c7147f464bb34d2656134a2f6651287215cb13c044b53e718f6459b666b9e269"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/results/evaluation_fresh_binary_sft10k_grpo10k_heldout4500.log",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/results/evaluation_fresh_binary_sft10k_grpo10k_heldout4500.log",
+    "description": "SFT AND GRPO EVALUATION RESULTS",
+    "size_bytes": 4747,
+    "sha256": "5f13b2252110800bbcbf016ebe3a15ceb09adfc20681d95f90f4cc2270aa5795"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/results/evaluation_fresh_binary_sft10k_heldout4500.log",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/results/evaluation_fresh_binary_sft10k_heldout4500.log",
+    "description": "SFT AND GRPO EVALUATION RESULTS",
+    "size_bytes": 4704,
+    "sha256": "1b1974804f98005714557db6eb080fa53cacb4fb1ea6b38a460770980b3d58be"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/results/metrics_fresh_binary_sft10k_grpo10k_heldout4500.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/results/metrics_fresh_binary_sft10k_grpo10k_heldout4500.json",
+    "description": "SFT AND GRPO EVALUATION RESULTS",
+    "size_bytes": 1688,
+    "sha256": "5659c4214fcbc1ae76229653b852fc0349fdd1aed22193f6a9aac484598d322b"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/results/metrics_fresh_binary_sft10k_heldout4500.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/results/metrics_fresh_binary_sft10k_heldout4500.json",
+    "description": "SFT AND GRPO EVALUATION RESULTS",
+    "size_bytes": 1674,
+    "sha256": "62249d9301a479625f1779cde61cf7ab06ae3bd5be4d0f85e95d788c5d050e2a"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/results/per_case_fresh_binary_sft10k_grpo10k_heldout4500.csv",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/results/per_case_fresh_binary_sft10k_grpo10k_heldout4500.csv",
+    "description": "SFT AND GRPO EVALUATION RESULTS",
+    "size_bytes": 20978500,
+    "sha256": "4485ada77fc6b1c852d927bdb8d2c35793d73a9e6f30d2136e257ad98b38c3ea"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/results/per_case_fresh_binary_sft10k_grpo10k_heldout4500.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/results/per_case_fresh_binary_sft10k_grpo10k_heldout4500.json",
+    "description": "SFT AND GRPO EVALUATION RESULTS",
+    "size_bytes": 23507908,
+    "sha256": "7464b96461f4137fddda37367c8f216a3a9a03e68c16261d8172264f26cc0674"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/results/per_case_fresh_binary_sft10k_heldout4500.csv",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/results/per_case_fresh_binary_sft10k_heldout4500.csv",
+    "description": "SFT AND GRPO EVALUATION RESULTS",
+    "size_bytes": 21015173,
+    "sha256": "3e921088c064491e4981f2dbeab1f6fd1b48abf5095607e8def1f3c7b2e512db"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/results/per_case_fresh_binary_sft10k_heldout4500.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/results/per_case_fresh_binary_sft10k_heldout4500.json",
+    "description": "SFT AND GRPO EVALUATION RESULTS",
+    "size_bytes": 23544590,
+    "sha256": "c7147f464bb34d2656134a2f6651287215cb13c044b53e718f6459b666b9e269"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/analysis/fresh_binary_sft_vs_sft_grpo_heldout4500.csv",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/analysis/fresh_binary_sft_vs_sft_grpo_heldout4500.csv",
+    "description": "STATISTICAL AND ROOT-CAUSE ANALYSIS",
+    "size_bytes": 887,
+    "sha256": "22f49960e0c17c9fd79e62264e98af3f201c63db02616feee14967449ff7d97f"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/analysis/grpo_gpu_utilization_summary.csv",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/analysis/grpo_gpu_utilization_summary.csv",
+    "description": "STATISTICAL AND ROOT-CAUSE ANALYSIS",
+    "size_bytes": 397,
+    "sha256": "0c3f58f387c99846f543cb0a8c77b1b669476be61e942d52da1f32d99a671044"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/analysis/grpo_parameter_global_trajectory.csv",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/analysis/grpo_parameter_global_trajectory.csv",
+    "description": "STATISTICAL AND ROOT-CAUSE ANALYSIS",
+    "size_bytes": 4039,
+    "sha256": "3e03c60dcef53d2c78c66e82ba0cb32754432f6f3e48316d21917382553b87a4"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/analysis/grpo_tensorboard_scalars.csv",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/analysis/grpo_tensorboard_scalars.csv",
+    "description": "STATISTICAL AND ROOT-CAUSE ANALYSIS",
+    "size_bytes": 22436644,
+    "sha256": "da44298804ee3a59bcc8c915490f90d77f0fd33904cc1aca675dae0048757e60"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/analysis/reward_by_generated_outcome.csv",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/analysis/reward_by_generated_outcome.csv",
+    "description": "STATISTICAL AND ROOT-CAUSE ANALYSIS",
+    "size_bytes": 1442,
+    "sha256": "ab6469f84cee2081bfe56193bf653edca6eb560952a2cb649ca12a5425879dca"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/analysis/reward_by_reference_generated_pair.csv",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/analysis/reward_by_reference_generated_pair.csv",
+    "description": "STATISTICAL AND ROOT-CAUSE ANALYSIS",
+    "size_bytes": 1078,
+    "sha256": "f9b516bb2e6a1958f5efa6b808390294a99c47a6d9ca87546b325a0f78ec847d"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/analysis/sft_gpu_utilization_summary.csv",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/analysis/sft_gpu_utilization_summary.csv",
+    "description": "STATISTICAL AND ROOT-CAUSE ANALYSIS",
+    "size_bytes": 397,
+    "sha256": "3b2a2c2598b89e3f76874b5e64dac272405e705695e85cc0cc7866e1a73f75ed"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/analysis/training_outcome_rates_by_step.csv",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/analysis/training_outcome_rates_by_step.csv",
+    "description": "STATISTICAL AND ROOT-CAUSE ANALYSIS",
+    "size_bytes": 55118,
+    "sha256": "8db76f6af7f8e6a73f9502d089f7988f024394b4c59fd40b9834b524b8003588"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_tensorboard/events.out.tfevents.1786343425.upset-rabbit-51.188585.0",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_tensorboard/events.out.tfevents.1786343425.upset-rabbit-51.188585.0",
+    "description": "GRPO TENSORBOARD LOGS",
+    "size_bytes": 1616880,
+    "sha256": "e8f528b3c057324d899a0a7b3b37e4a499acea2431db4d9cd8d7f35596477bbe"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_tensorboard/events.out.tfevents.1786343425.upset-rabbit-51.188585.1",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_tensorboard/events.out.tfevents.1786343425.upset-rabbit-51.188585.1",
+    "description": "GRPO TENSORBOARD LOGS",
+    "size_bytes": 62348894,
+    "sha256": "727404758809b779b32aa34bab3c8145ee4736a23775d8a1744a092b9177d512"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_training.log",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_training.log",
+    "description": "sft_training.log",
+    "size_bytes": 58152,
+    "sha256": "d4dee503bb3bdb36d78950e21ec80d6dffa3daf228ebcb9b5cc53997348bd0a3"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_training.log",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_training.log",
+    "description": "grpo_training.log",
+    "size_bytes": 55948648,
+    "sha256": "db6ecd433b528ac8d8565cdeb269703500b246c317db7ade387babca2c4a14fa"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_training_summary.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_training_summary.json",
+    "description": "sft_training_summary.json",
+    "size_bytes": 1247,
+    "sha256": "c063421c393b4960de116a97bf7350476ced317ce05f635a164e19ab3a89b778"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_training_summary.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_training_summary.json",
+    "description": "grpo_training_summary.json",
+    "size_bytes": 2381,
+    "sha256": "2199f34ba704570eb8a1d402506bb04f4ff1f181979c86de2a69ad5903c861a5"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/training_summary.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/training_summary.json",
+    "description": "training_summary.json",
+    "size_bytes": 2381,
+    "sha256": "2199f34ba704570eb8a1d402506bb04f4ff1f181979c86de2a69ad5903c861a5"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/sft_gpu_telemetry.csv",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/sft_gpu_telemetry.csv",
+    "description": "sft_gpu_telemetry.csv",
+    "size_bytes": 51795,
+    "sha256": "4ada459c8ed565700ff85ab67116505a056a9598d896e430a96301b3824d63d5"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/grpo_gpu_telemetry.csv",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/grpo_gpu_telemetry.csv",
+    "description": "grpo_gpu_telemetry.csv",
+    "size_bytes": 841435,
+    "sha256": "a952e9a4dd1e6c36640db28d83ce8477966cb8d4323bdbb2d0059ee4bca54e0e"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/parameter_stats.jsonl",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/parameter_stats.jsonl",
+    "description": "parameter_stats.jsonl",
+    "size_bytes": 5183297,
+    "sha256": "beed1f052495aaef223cbb40dd8a6d63c1d48b968582ac04460634f9a9753b09"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/completion_audit.rank0.jsonl",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/completion_audit.rank0.jsonl",
+    "description": "GRPO COMPLETION/REWARD AUDIT",
+    "size_bytes": 73395647,
+    "sha256": "a8cc3070090765693b0b8d656d0381c6473761a8b8fc554e171c6bc80ee96b10"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/completion_audit.rank1.jsonl",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/completion_audit.rank1.jsonl",
+    "description": "GRPO COMPLETION/REWARD AUDIT",
+    "size_bytes": 73347540,
+    "sha256": "2559a2ca1d42b74c04c0b6f215edcfbd89fe95aa3f280f149ebdfc39f356cbae"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/completion_audit.rank2.jsonl",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/completion_audit.rank2.jsonl",
+    "description": "GRPO COMPLETION/REWARD AUDIT",
+    "size_bytes": 73305000,
+    "sha256": "275dd8638309efc49b646403f67f51404054a6307adc58ea0cf13efb1600e9e3"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/archive_metadata/archive_metadata.json",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/archive_metadata/archive_metadata.json",
+    "description": "REPRODUCIBILITY METADATA",
+    "size_bytes": 630,
+    "sha256": "07592a8254cd2b3be790e28aa24e9397fc8ed73125370f5ee62a818d099829e8"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/archive_metadata/nvidia_smi.txt",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/archive_metadata/nvidia_smi.txt",
+    "description": "REPRODUCIBILITY METADATA",
+    "size_bytes": 2462,
+    "sha256": "670c7aa7ee87b36ece8473e06323262f3eb91a4b1e7993f5b7ab8f7f5cb2cf68"
+  },
+  {
+    "archive_path": "firac_fresh_binary_experiment/archive_metadata/pip_freeze.txt",
+    "source_path": "/root/firac_fresh_binary_sft_grpo_v1/archive_metadata/pip_freeze.txt",
+    "description": "REPRODUCIBILITY METADATA",
+    "size_bytes": 15926,
+    "sha256": "8a8ce3687dfb18506c1120469008c02892ea66185c7f56ac52f6af6aa5648001"
+  }
+]

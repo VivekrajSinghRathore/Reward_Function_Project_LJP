@@ -1,0 +1,30 @@
+{
+  "source_archive": "/root/FIRAC_V2_ESSENTIAL_20260727_2148.tar.gz",
+  "workspace": "/root/firac_sft10k_from_tar",
+  "base_model": "Qwen/Qwen3-1.7B",
+  "source_sft_adapter": "/root/firac_sft10k_from_tar/firac_qwen3_1_7b_sft_v2_adapter",
+  "completed_grpo_adapter": "/root/firac_sft10k_from_tar/firac_opt_v2/grpo_full_adapter",
+  "dataset": "mborcin/firac-appeals",
+  "dataset_config": "combined",
+  "split_seed": 42,
+  "train_unique_cases": 10000,
+  "train_unique_id_sha256": "5057319c1c9487cf99fb46a1ced7bed0cff4fc16cde5d5ce58c8182a8553ea31",
+  "training_exposures": 11000,
+  "match_grpo_exposure_schedule": true,
+  "training_label_exposures": {
+    "allowed": 4500,
+    "other": 2000,
+    "dismissed": 4500
+  },
+  "heldout_cases": 5000,
+  "heldout_id_sha256": "b27bfc3d04c08928a0c8b0a2f3abdc75c442f4ee949bacba53eb3ca4220af63c",
+  "epochs": 1.0,
+  "world_size": 3,
+  "per_device_batch": 1,
+  "gradient_accumulation": 8,
+  "global_effective_batch": 24,
+  "learning_rate": 0.0001,
+  "max_length": 1536,
+  "evaluation_batch_size": 16,
+  "evaluation_max_new_tokens": 640
+}

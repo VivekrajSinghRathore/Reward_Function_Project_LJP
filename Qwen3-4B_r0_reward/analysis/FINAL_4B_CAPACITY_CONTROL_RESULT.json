@@ -1,0 +1,47 @@
+{
+  "experiment": "Qwen3-4B capacity control under unchanged original R0 reward",
+  "model": "Qwen/Qwen3-4B",
+  "reward_unchanged": true,
+  "reward_sha256": "93766e2f51bae5dfb4507c50d93ee9e43f0b7c88a6b116a368be38e5b38918a5",
+  "SFT_4B": {
+    "accuracy": 0.5484444444444444,
+    "balanced_accuracy": 0.5484444444444445,
+    "macro_f1": 0.5484610521544475,
+    "allowed_recall": 0.49955555555555553,
+    "dismissed_recall": 0.5973333333333334,
+    "prediction_distribution": {
+      "allowed": 2020,
+      "dismissed": 2462,
+      "unknown": 18
+    }
+  },
+  "GRPO_4B_original_R0_reward": {
+    "accuracy": 0.5466666666666666,
+    "balanced_accuracy": 0.5466666666666666,
+    "macro_f1": 0.5459804416693448,
+    "allowed_recall": 0.49333333333333335,
+    "dismissed_recall": 0.6,
+    "prediction_distribution": {
+      "allowed": 2005,
+      "dismissed": 2485,
+      "unknown": 10
+    },
+    "mean_R_total": 0.3866623747162321
+  },
+  "GRPO_minus_SFT": {
+    "accuracy_delta": -0.001777777777777767,
+    "balanced_accuracy_delta": -0.001777777777777878,
+    "balanced_accuracy_delta_95ci": [
+      -0.015820023278334587,
+      0.012011047944860272
+    ],
+    "macro_f1_delta": -0.00248061048510273,
+    "exact_McNemar_p": 0.8288207006906094
+  },
+  "interpretation_rules": {
+    "4B_GRPO_much_better_than_1.7B_R0": "Supports model capacity as a meaningful contributor, but does not prove the reward is optimal.",
+    "4B_SFT_strong_but_GRPO_worse": "Supports the GRPO reward/objective as a bottleneck.",
+    "4B_SFT_and_4B_GRPO_both_near_chance": "Scaling alone is insufficient; redesigning supervision/reward is warranted.",
+    "4B_GRPO_improves_reward_but_not_outcome_metrics": "Suggests reward-objective misalignment: the model learns rewarded FIRAC properties without stronger outcome discrimination."
+  }
+}

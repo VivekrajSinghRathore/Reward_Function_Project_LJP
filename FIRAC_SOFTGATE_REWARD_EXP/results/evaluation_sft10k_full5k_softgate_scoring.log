@@ -1,0 +1,108 @@
+W0806 21:41:32.537000 86692 site-packages/torch/distributed/run.py:774] 
+W0806 21:41:32.537000 86692 site-packages/torch/distributed/run.py:774] *****************************************
+W0806 21:41:32.537000 86692 site-packages/torch/distributed/run.py:774] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0806 21:41:32.537000 86692 site-packages/torch/distributed/run.py:774] *****************************************
+Evaluating 5,000 rows across 3 ranks.
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.28s/it]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.28s/it]
+Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.29s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.52it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.53it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.33it/s]
+
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.34it/s]
+
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.52it/s]
+Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.33it/s]
+/opt/miniconda3/lib/python3.10/site-packages/peft/config.py:220: UserWarning: Unexpected keyword arguments ['monteclora_config', 'velora_config'] for class LoraConfig, these are ignored. This probably means that you're loading a configuration file that was saved using a higher version of the library and additional parameters have been introduced since. It is highly recommended to upgrade the PEFT version before continuing (e.g. by running `pip install -U peft`).
+  warnings.warn(
+/opt/miniconda3/lib/python3.10/site-packages/peft/config.py:220: UserWarning: Unexpected keyword arguments ['monteclora_config', 'velora_config'] for class LoraConfig, these are ignored. This probably means that you're loading a configuration file that was saved using a higher version of the library and additional parameters have been introduced since. It is highly recommended to upgrade the PEFT version before continuing (e.g. by running `pip install -U peft`).
+  warnings.warn(
+/opt/miniconda3/lib/python3.10/site-packages/peft/config.py:220: UserWarning: Unexpected keyword arguments ['monteclora_config', 'velora_config'] for class LoraConfig, these are ignored. This probably means that you're loading a configuration file that was saved using a higher version of the library and additional parameters have been introduced since. It is highly recommended to upgrade the PEFT version before continuing (e.g. by running `pip install -U peft`).
+  warnings.warn(
+Pre-encoding 12,372 unique reference strings...
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Reference cache size: 12,372
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  rank0 4/1667  (0.1 rows/s)
+  rank0 44/1667  (0.1 rows/s)
+  rank0 84/1667  (0.1 rows/s)
+  rank0 124/1667  (0.1 rows/s)
+  rank0 164/1667  (0.1 rows/s)
+  rank0 204/1667  (0.1 rows/s)
+  rank0 244/1667  (0.1 rows/s)
+  rank0 284/1667  (0.1 rows/s)
+  rank0 324/1667  (0.1 rows/s)
+  rank0 364/1667  (0.1 rows/s)
+  rank0 404/1667  (0.1 rows/s)
+  rank0 444/1667  (0.1 rows/s)
+  rank0 484/1667  (0.1 rows/s)
+  rank0 524/1667  (0.1 rows/s)
+  rank0 564/1667  (0.1 rows/s)
+  rank0 604/1667  (0.1 rows/s)
+  rank0 644/1667  (0.1 rows/s)
+  rank0 684/1667  (0.1 rows/s)
+  rank0 724/1667  (0.1 rows/s)
+  rank0 764/1667  (0.1 rows/s)
+  rank0 804/1667  (0.1 rows/s)
+  rank0 844/1667  (0.1 rows/s)
+  rank0 884/1667  (0.1 rows/s)
+  rank0 924/1667  (0.1 rows/s)
+  rank0 964/1667  (0.1 rows/s)
+  rank0 1004/1667  (0.1 rows/s)
+  rank0 1044/1667  (0.1 rows/s)
+  rank0 1084/1667  (0.1 rows/s)
+  rank0 1124/1667  (0.1 rows/s)
+  rank0 1164/1667  (0.1 rows/s)
+  rank0 1204/1667  (0.1 rows/s)
+  rank0 1244/1667  (0.1 rows/s)
+  rank0 1284/1667  (0.1 rows/s)
+  rank0 1324/1667  (0.1 rows/s)
+  rank0 1364/1667  (0.1 rows/s)
+  rank0 1404/1667  (0.1 rows/s)
+  rank0 1444/1667  (0.1 rows/s)
+  rank0 1484/1667  (0.1 rows/s)
+  rank0 1524/1667  (0.1 rows/s)
+  rank0 1564/1667  (0.1 rows/s)
+  rank0 1604/1667  (0.1 rows/s)
+  rank0 1644/1667  (0.1 rows/s)
+[rank 0] wrote 1,667 rows to /root/firac_sft10k_from_tar/firac_grpo_10k_softgate_rca_3gpu_v1_5/results/.sft10k_full5k_softgate_scoring.rank0.json
+[rank 2] wrote 1,666 rows to /root/firac_sft10k_from_tar/firac_grpo_10k_softgate_rca_3gpu_v1_5/results/.sft10k_full5k_softgate_scoring.rank2.json
+[rank 1] wrote 1,667 rows to /root/firac_sft10k_from_tar/firac_grpo_10k_softgate_rca_3gpu_v1_5/results/.sft10k_full5k_softgate_scoring.rank1.json
+/opt/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:2801: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+============================================================
+EVALUATION: sft10k_full5k_softgate_scoring
+============================================================
+  adapter                   : /root/firac_qwen3_1_7b_sft_v2_10k_control_adapter
+  tag                       : sft10k_full5k_softgate_scoring
+  rows                      : 5000
+  world_size                : 3
+  elapsed_hours_rank0       : 3.8540
+  mean_R_total              : 0.3696
+  mean_R_format             : 0.9620
+  mean_R_structure          : 0.9981
+  mean_R_coverage           : 0.9314
+  mean_R_outcome            : 0.5562
+  mean_R_issues             : 0.3301
+  mean_R_rules              : 0.2094
+  mean_R_authority          : 0.0743
+  mean_R_reasoning          : 0.2646
+  outcome_accuracy          : 0.5562
+  balanced_accuracy         : 0.5307
+  macro_f1                  : 0.5280
+  weighted_f1               : 0.5470
+  format_completion_rate    : 0.9958
+  format_valid_rate         : 0.9952
+  unknown_rate              : 0.0048
+  truncation_rate           : 0.0050
+  mean_completion_tokens    : 484.9340
+  prediction_distribution   : {'allowed': 1524, 'dismissed': 2985, 'other': 467, 'unknown': 24}
+  per_class                 : {'allowed': {'precision': 0.6003937007874016, 'recall': 0.4066666666666667, 'f1': 0.4848966613672496, 'support': 2250}, 'dismissed': {'precision': 0.5484087102177554, 'recall': 0.7275555555555555, 'f1': 0.6254059216809933, 'support': 2250}, 'other': {'precision': 0.49036402569593146, 'recall': 0.458, 'f1': 0.4736297828335057, 'support': 500}}
+  confusion_labels          : ['allowed', 'dismissed', 'other', 'unknown']
+  confusion_matrix          : [[915, 1186, 144, 5], [502, 1637, 94, 17], [107, 162, 229, 2], [0, 0, 0, 0]]

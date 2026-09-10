@@ -1,0 +1,65 @@
+{
+  "dataset_name": "mborcin/firac-appeals",
+  "dataset_config": "combined",
+  "train_rows": 10000,
+  "train_unique_case_ids": 10000,
+  "train_distribution": {
+    "allowed": 4500,
+    "dismissed": 4500,
+    "other": 1000
+  },
+  "eval_rows": 5000,
+  "eval_unique_case_ids": 5000,
+  "eval_distribution": {
+    "allowed": 2250,
+    "dismissed": 2250,
+    "other": 500
+  },
+  "train_eval_overlap": 0,
+  "prefix_class_counts": {
+    "100": {
+      "allowed": 45,
+      "dismissed": 45,
+      "other": 10
+    },
+    "500": {
+      "allowed": 225,
+      "dismissed": 225,
+      "other": 50
+    },
+    "1000": {
+      "allowed": 450,
+      "dismissed": 450,
+      "other": 100
+    },
+    "2500": {
+      "allowed": 1125,
+      "dismissed": 1125,
+      "other": 250
+    },
+    "5000": {
+      "allowed": 2250,
+      "dismissed": 2250,
+      "other": 500
+    },
+    "10000": {
+      "allowed": 4500,
+      "dismissed": 4500,
+      "other": 1000
+    }
+  },
+  "prompt_length_sample_rows": 1000,
+  "prompt_length_median": 530.0,
+  "prompt_length_p95": 658.05,
+  "prompt_length_max": 762,
+  "prompt_length_over_limit": 0,
+  "max_prompt_length": 1024,
+  "reward_weights": {
+    "outcome": 0.15,
+    "issues": 0.25,
+    "rules": 0.4,
+    "authority": 0.2
+  },
+  "format_weight": 0.15,
+  "reasoning_weight": 0.85
+}

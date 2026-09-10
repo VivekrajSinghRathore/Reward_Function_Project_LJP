@@ -1,0 +1,93 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "combined",
+  "dataset_name": "firac-appeals",
+  "dataset_size": 1539103983,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mborcin/firac-appeals@3843797a76fd308327ae70da1adecec92ca41045/data/in_abs/train.parquet": {
+      "num_bytes": 82404962,
+      "checksum": null
+    },
+    "hf://datasets/mborcin/firac-appeals@3843797a76fd308327ae70da1adecec92ca41045/data/supreme_court/train.parquet": {
+      "num_bytes": 388132909,
+      "checksum": null
+    },
+    "hf://datasets/mborcin/firac-appeals@3843797a76fd308327ae70da1adecec92ca41045/data/in_abs/test.parquet": {
+      "num_bytes": 1317567,
+      "checksum": null
+    },
+    "hf://datasets/mborcin/firac-appeals@3843797a76fd308327ae70da1adecec92ca41045/data/supreme_court/test.parquet": {
+      "num_bytes": 21438844,
+      "checksum": null
+    }
+  },
+  "download_size": 493294282,
+  "features": {
+    "case_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "reference_issues": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "reference_rules": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "reference_authorities": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "reference_conclusion_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "outcome_label": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "is_padding": {
+      "dtype": "bool",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 2032398265,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1466397650,
+      "num_examples": 43479,
+      "dataset_name": "firac-appeals"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 72706333,
+      "num_examples": 1541,
+      "dataset_name": "firac-appeals"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

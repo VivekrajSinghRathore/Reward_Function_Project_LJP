@@ -1,0 +1,68 @@
+{
+  "adapter": "/root/firac_fresh_binary_sft_grpo_v1/grpo_r1_outcome35/adapter",
+  "tag": "fresh_binary_sft10k_grpo10k_r1_outcome35_heldout4500",
+  "task": "binary_allowed_vs_dismissed",
+  "rows": 4500,
+  "world_size": 3,
+  "elapsed_hours_rank0": 1.8667504747708639,
+  "mean_R_total": 0.3579078898492588,
+  "mean_R_format_soft": 0.9644779444444056,
+  "mean_R_format": 0.9619083888888502,
+  "mean_R_structure": 0.9987222222222221,
+  "mean_R_coverage": 0.9302336666666231,
+  "mean_R_outcome": 0.5182222222222223,
+  "mean_R_issues": 0.3190380952380962,
+  "mean_R_rules": 0.198279266661511,
+  "mean_R_authority": 0.0703077585073728,
+  "mean_R_reasoning": 0.25086611550893584,
+  "outcome_accuracy": 0.5182222222222223,
+  "balanced_accuracy": 0.5182222222222223,
+  "macro_f1": 0.46175610223948593,
+  "weighted_f1": 0.4617561022394859,
+  "format_completion_rate": 0.9968888888888889,
+  "format_valid_rate": 0.996,
+  "unknown_rate": 0.004,
+  "truncation_rate": 0.004222222222222222,
+  "mean_completion_tokens": 489.5564444444444,
+  "prediction_distribution": {
+    "allowed": 774,
+    "dismissed": 3708,
+    "unknown": 18
+  },
+  "per_class": {
+    "allowed": {
+      "precision": 0.5581395348837209,
+      "recall": 0.192,
+      "f1": 0.2857142857142857,
+      "support": 2250
+    },
+    "dismissed": {
+      "precision": 0.5124056094929881,
+      "recall": 0.8444444444444444,
+      "f1": 0.6377979187646862,
+      "support": 2250
+    }
+  },
+  "confusion_labels": [
+    "allowed",
+    "dismissed",
+    "unknown"
+  ],
+  "confusion_matrix": [
+    [
+      432,
+      1808,
+      10
+    ],
+    [
+      342,
+      1900,
+      8
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ]
+}

@@ -1,0 +1,99 @@
+Evaluating 4,500 binary rows across 3 independent GPU ranks.
+
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.92it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.55it/s]
+Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.60it/s]
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.94it/s]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  2.87it/s]
+[rank 1] PEFT_DDP_TP_PATCH=patched_ddp_no_tp
+
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.65it/s]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  2.44it/s]
+
+Loading checkpoint shards:  67%|██████▋   | 2/3 [00:01<00:00,  1.53it/s]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:01<00:00,  2.27it/s]
+[rank 2] PEFT_DDP_TP_PATCH=patched_ddp_no_tp
+[rank 0] PEFT_DDP_TP_PATCH=patched_ddp_no_tp
+Pre-encoding 11,279 unique reference strings on GPU...
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Reference cache size: 11,279 (device-resident on cuda:0)
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  rank0 4/1500 (0.11 rows/s)
+  rank0 44/1500 (0.12 rows/s)
+  rank0 84/1500 (0.12 rows/s)
+  rank0 124/1500 (0.12 rows/s)
+  rank0 164/1500 (0.12 rows/s)
+  rank0 204/1500 (0.12 rows/s)
+  rank0 244/1500 (0.12 rows/s)
+  rank0 284/1500 (0.12 rows/s)
+  rank0 324/1500 (0.12 rows/s)
+  rank0 364/1500 (0.12 rows/s)
+  rank0 404/1500 (0.12 rows/s)
+  rank0 444/1500 (0.12 rows/s)
+  rank0 484/1500 (0.12 rows/s)
+  rank0 524/1500 (0.12 rows/s)
+  rank0 564/1500 (0.12 rows/s)
+  rank0 604/1500 (0.12 rows/s)
+  rank0 644/1500 (0.12 rows/s)
+  rank0 684/1500 (0.12 rows/s)
+  rank0 724/1500 (0.12 rows/s)
+  rank0 764/1500 (0.12 rows/s)
+  rank0 804/1500 (0.12 rows/s)
+  rank0 844/1500 (0.12 rows/s)
+  rank0 884/1500 (0.12 rows/s)
+  rank0 924/1500 (0.12 rows/s)
+  rank0 964/1500 (0.12 rows/s)
+  rank0 1004/1500 (0.12 rows/s)
+  rank0 1044/1500 (0.12 rows/s)
+  rank0 1084/1500 (0.12 rows/s)
+  rank0 1124/1500 (0.12 rows/s)
+  rank0 1164/1500 (0.11 rows/s)
+  rank0 1204/1500 (0.11 rows/s)
+  rank0 1244/1500 (0.11 rows/s)
+  rank0 1284/1500 (0.11 rows/s)
+  rank0 1324/1500 (0.11 rows/s)
+  rank0 1364/1500 (0.11 rows/s)
+  rank0 1404/1500 (0.11 rows/s)
+  rank0 1444/1500 (0.11 rows/s)
+  rank0 1484/1500 (0.11 rows/s)
+[rank 0] wrote 1,500 rows to /root/firac_fresh_binary_experiment/qwen3_4b_capacity_control_r0_reward/results/.qwen3_4b_fresh_sft_heldout4500.rank0.json
+[rank 1] wrote 1,500 rows to /root/firac_fresh_binary_experiment/qwen3_4b_capacity_control_r0_reward/results/.qwen3_4b_fresh_sft_heldout4500.rank1.json
+[rank 2] wrote 1,500 rows to /root/firac_fresh_binary_experiment/qwen3_4b_capacity_control_r0_reward/results/.qwen3_4b_fresh_sft_heldout4500.rank2.json
+/opt/miniconda3/lib/python3.10/site-packages/sklearn/metrics/_classification.py:2801: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+========================================================================
+BINARY EVALUATION: qwen3_4b_fresh_sft_heldout4500
+========================================================================
+  adapter                     : /root/firac_fresh_binary_experiment/qwen3_4b_capacity_control_r0_reward/sft_adapter
+  tag                         : qwen3_4b_fresh_sft_heldout4500
+  task                        : binary_allowed_vs_dismissed
+  rows                        : 4500
+  world_size                  : 3
+  elapsed_hours_rank0         : 3.648259
+  mean_R_total                : 0.379838
+  mean_R_format_soft          : 0.965394
+  mean_R_format               : 0.962847
+  mean_R_structure            : 0.998578
+  mean_R_coverage             : 0.932210
+  mean_R_outcome              : 0.548444
+  mean_R_issues               : 0.362095
+  mean_R_rules                : 0.222852
+  mean_R_authority            : 0.072866
+  mean_R_reasoning            : 0.276504
+  outcome_accuracy            : 0.548444
+  balanced_accuracy           : 0.548444
+  macro_f1                    : 0.548461
+  weighted_f1                 : 0.548461
+  format_completion_rate      : 0.996444
+  format_valid_rate           : 0.996000
+  unknown_rate                : 0.004000
+  truncation_rate             : 0.004000
+  mean_completion_tokens      : 488.374000
+  prediction_distribution     : {'allowed': 2020, 'dismissed': 2462, 'unknown': 18}
+  per_class                   : {'allowed': {'precision': 0.5564356435643565, 'recall': 0.49955555555555553, 'f1': 0.5264637002341921, 'support': 2250}, 'dismissed': {'precision': 0.545897644191714, 'recall': 0.5973333333333334, 'f1': 0.5704584040747029, 'support': 2250}}
+  confusion_labels            : ['allowed', 'dismissed', 'unknown']
+  confusion_matrix            : [[1124, 1118, 8], [896, 1344, 10], [0, 0, 0]]

@@ -1,0 +1,50 @@
+{
+  "experiment": "qwen3_4b_capacity_control_original_r0_reward",
+  "model": "Qwen/Qwen3-4B",
+  "source_root": "/root/firac_fresh_binary_experiment",
+  "run_root": "/root/firac_fresh_binary_experiment/qwen3_4b_capacity_control_r0_reward",
+  "train_unique": 10000,
+  "train_schedule_rows": 10008,
+  "heldout_rows": 4500,
+  "reward_file_sha256": "93766e2f51bae5dfb4507c50d93ee9e43f0b7c88a6b116a368be38e5b38918a5",
+  "format_weight": 0.15,
+  "reasoning_weight": 0.85,
+  "nested_reward_weights": {
+    "outcome": 0.15,
+    "issues": 0.25,
+    "rules": 0.4,
+    "authority": 0.2
+  },
+  "effective_reward_weights": {
+    "format": 0.15,
+    "outcome": 0.1275,
+    "issues": 0.2125,
+    "rules": 0.34,
+    "authority": 0.17
+  },
+  "sft": {
+    "per_device_batch": 1,
+    "grad_accum": 8,
+    "global_effective_batch": 24,
+    "epochs": 1.0,
+    "learning_rate": 0.0001,
+    "max_length": 1664,
+    "expected_steps": 417,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05
+  },
+  "grpo": {
+    "num_generations": 8,
+    "per_device_batch": 1,
+    "grad_accum": 32,
+    "prompts_per_optimizer_step": 12,
+    "expected_steps": 834,
+    "learning_rate": 8e-07,
+    "beta": 0.05,
+    "temperature": 1.0,
+    "max_prompt_length": 1024,
+    "max_completion_length": 640,
+    "vllm_memory": 0.4
+  }
+}

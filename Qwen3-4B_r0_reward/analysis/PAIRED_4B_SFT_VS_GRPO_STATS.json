@@ -1,0 +1,24 @@
+{
+  "movement": {
+    "both_correct": 1940,
+    "both_wrong": 1512,
+    "SFT_correct_GRPO_wrong": 528,
+    "SFT_wrong_GRPO_correct": 520,
+    "discordant_pairs": 1048,
+    "exact_McNemar_p": 0.8288207006906094
+  },
+  "bootstrap": {
+    "n_bootstrap": 10000,
+    "accuracy_delta_GRPO_minus_SFT": -0.001777777777777767,
+    "accuracy_delta_95ci": [
+      -0.01577777777777778,
+      0.01200000000000001
+    ],
+    "balanced_accuracy_delta_GRPO_minus_SFT": -0.001777777777777878,
+    "balanced_accuracy_delta_95ci": [
+      -0.015820023278334587,
+      0.012011047944860272
+    ],
+    "exact_McNemar_p": 0.8288207006906094
+  }
+}
