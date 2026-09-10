@@ -1,0 +1,104 @@
+{
+  "0.6": {
+    "n_prompts": 600,
+    "mean_accuracy": 0.6339583333333333,
+    "tvd_vs_binomial": 0.3332036128616846,
+    "null_tvd_mean": 0.033947886731003296,
+    "null_tvd_p95": 0.054458944072562264,
+    "tvd_p_value": 0.0,
+    "distinguishable": true,
+    "per_case_p_std": 0.29181179425083026,
+    "expected_noise_std": 0.17031410868251476,
+    "excess_std_ratio": 1.7133741679310976,
+    "observed_distribution": [
+      0.0383,
+      0.07,
+      0.0617,
+      0.085,
+      0.1167,
+      0.1217,
+      0.165,
+      0.175,
+      0.1667
+    ],
+    "binomial_distribution": [
+      0.0003,
+      0.0045,
+      0.0271,
+      0.0938,
+      0.203,
+      0.2812,
+      0.2435,
+      0.1205,
+      0.0261
+    ]
+  },
+  "0.8": {
+    "n_prompts": 600,
+    "mean_accuracy": 0.624375,
+    "tvd_vs_binomial": 0.28107885306824637,
+    "null_tvd_mean": 0.03534697515674665,
+    "null_tvd_p95": 0.05703896910954025,
+    "tvd_p_value": 0.0,
+    "distinguishable": true,
+    "per_case_p_std": 0.26891879389200996,
+    "expected_noise_std": 0.1712202015589136,
+    "excess_std_ratio": 1.570602016839001,
+    "observed_distribution": [
+      0.02,
+      0.0517,
+      0.0867,
+      0.0967,
+      0.1333,
+      0.1483,
+      0.17,
+      0.1617,
+      0.1317
+    ],
+    "binomial_distribution": [
+      0.0004,
+      0.0053,
+      0.0307,
+      0.1019,
+      0.2118,
+      0.2816,
+      0.2341,
+      0.1112,
+      0.0231
+    ]
+  },
+  "1.0": {
+    "n_prompts": 600,
+    "mean_accuracy": 0.595625,
+    "tvd_vs_binomial": 0.1988838121502291,
+    "null_tvd_mean": 0.03453122382119065,
+    "null_tvd_p95": 0.057230464072007714,
+    "tvd_p_value": 0.0,
+    "distinguishable": true,
+    "per_case_p_std": 0.24790082232282595,
+    "expected_noise_std": 0.1735136375674114,
+    "excess_std_ratio": 1.4287108828925021,
+    "observed_distribution": [
+      0.025,
+      0.0417,
+      0.0767,
+      0.1117,
+      0.165,
+      0.19,
+      0.18,
+      0.135,
+      0.075
+    ],
+    "binomial_distribution": [
+      0.0007,
+      0.0084,
+      0.0434,
+      0.1279,
+      0.2356,
+      0.2776,
+      0.2044,
+      0.086,
+      0.0158
+    ]
+  }
+}

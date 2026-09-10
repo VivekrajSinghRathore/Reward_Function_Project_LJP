@@ -1,0 +1,9 @@
+{
+  "lexical_ceiling_ba": 0.6222222222222223,
+  "audit": {
+    "rows": 4500,
+    "allowed_fraction": 0.5,
+    "median_prompt_chars": 1728.0,
+    "duplicate_prompts": 0
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "input_facts_ceiling": 0.6222222222222223,
+  "generated_analysis_probe": 0.6017777777777777,
+  "model_conclusion": 0.6431111111111112,
+  "analysis_to_own_conclusion_coupling": 0.6868888888888889
+}

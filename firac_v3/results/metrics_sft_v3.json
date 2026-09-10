@@ -1,0 +1,78 @@
+{
+  "tag": "sft_v3",
+  "adapter": "/root/firac_v3/sft_adapter_v3",
+  "rows": 4500,
+  "accuracy": 0.6431111111111111,
+  "balanced_accuracy": 0.6431111111111112,
+  "macro_f1": 0.6479271013887298,
+  "confusion_labels": [
+    "allowed",
+    "dismissed",
+    "unknown"
+  ],
+  "confusion_matrix": [
+    [
+      1458,
+      756,
+      36
+    ],
+    [
+      783,
+      1436,
+      31
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "prediction_distribution": {
+    "allowed": 2241,
+    "dismissed": 2192,
+    "unknown": 67
+  },
+  "format_valid_rate": 0.9851111111111112,
+  "truncation_rate": 0.015111111111111112,
+  "mean_completion_tokens": 504.39577777777777,
+  "completion_token_percentiles": {
+    "p50": 500.0,
+    "p90": 576.0,
+    "p99": 640.0
+  },
+  "mean_R_total": 0.4943088122366473,
+  "mean_R_outcome": 0.6431111111111111,
+  "mean_R_issues": 0.6513744158658022,
+  "mean_R_rules": 0.45694653004902386,
+  "mean_R_authority": 0.07169426577030859,
+  "mean_R_coupling": 0.5025941197610806,
+  "mean_R_grounding": 0.999976892479524,
+  "mean_R_reasoning": 0.48359680782299486,
+  "component_orthogonality": {
+    "R_issues": {
+      "when_correct": 0.6581209733607617,
+      "when_wrong": 0.6392171696700408,
+      "delta": 0.018903803690720866
+    },
+    "R_rules": {
+      "when_correct": 0.45759151306319046,
+      "when_wrong": 0.4557842754767955,
+      "delta": 0.0018072375863949497
+    },
+    "R_authority": {
+      "when_correct": 0.07057988431278671,
+      "when_wrong": 0.07370237283012729,
+      "delta": -0.0031224885173405798
+    },
+    "R_coupling": {
+      "when_correct": 0.5027623501525851,
+      "when_wrong": 0.5022909698526034,
+      "delta": 0.00047138029998172737
+    },
+    "R_grounding": {
+      "when_correct": 0.9999820224509236,
+      "when_wrong": 0.999967648309393,
+      "delta": 1.4374141530604234e-05
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "layer": 19,
+  "n": 1500,
+  "adapter": null,
+  "mlp_balanced_accuracy": 0.62153441700466,
+  "mlp_auc": 0.6482800536846811
+}

@@ -1,0 +1,63 @@
+{
+  "model_name": "Qwen/Qwen3-4B",
+  "world_size": 2,
+  "seed": 142,
+  "sft": {
+    "reuse_adapter": "",
+    "epochs": 1,
+    "per_device_batch": 1,
+    "grad_accum": 12,
+    "learning_rate": 0.0001,
+    "max_length": 1664,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "conclusion_loss_weight": 40.0,
+    "analysis_budget_words": 100,
+    "include_rules_in_target": true
+  },
+  "reward": {
+    "sem_floor": 0.65,
+    "sem_ceil": 0.83,
+    "w_issues": 0.3,
+    "w_rules": 0.45,
+    "w_authority": 0.1,
+    "w_coupling": 0.15,
+    "outcome_base": 0.55,
+    "hard_format_gate": true
+  },
+  "grpo": {
+    "credit_mode": "section",
+    "lam_local": 0.5,
+    "lam_global": 0.5,
+    "num_generations": 8,
+    "per_device_batch": 1,
+    "grad_accum": 48,
+    "learning_rate": 2e-06,
+    "beta": 0.01,
+    "temperature": 0.6,
+    "max_prompt_length": 1024,
+    "max_completion_length": 640,
+    "max_steps": 300,
+    "warmup_ratio": 0.1,
+    "max_grad_norm": 0.3,
+    "use_vllm": false,
+    "vllm_memory": 0.25
+  },
+  "gates": {
+    "ceiling_min_ba": 0.58,
+    "sft_gap_to_ceiling": 0.05,
+    "rollout_min_tvd": 0.05
+  },
+  "eval": {
+    "batch_size": 2,
+    "max_new_tokens": 640,
+    "heldout_rows": 4500
+  },
+  "rollout_probe": {
+    "prompts": 600,
+    "generations": 8,
+    "batch_prompts": 1,
+    "temperatures": "0.6,0.8,1.0"
+  }
+}

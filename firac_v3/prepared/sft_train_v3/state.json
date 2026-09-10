@@ -1,0 +1,19 @@
+{
+  "_data_files": [
+    {
+      "filename": "data-00000-of-00001.arrow"
+    }
+  ],
+  "_fingerprint": "446056510be78a50",
+  "_format_columns": [
+    "case_id",
+    "completion",
+    "conc_char",
+    "outcome_label",
+    "prompt"
+  ],
+  "_format_kwargs": {},
+  "_format_type": null,
+  "_output_all_columns": false,
+  "_split": null
+}

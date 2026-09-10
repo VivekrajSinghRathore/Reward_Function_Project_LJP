@@ -1,0 +1,78 @@
+{
+  "tag": "grpo_conclusion",
+  "adapter": "/root/firac_v3/grpo_conclusion_adapter",
+  "rows": 4500,
+  "accuracy": 0.6368888888888888,
+  "balanced_accuracy": 0.6368888888888888,
+  "macro_f1": 0.6434573415608934,
+  "confusion_labels": [
+    "allowed",
+    "dismissed",
+    "unknown"
+  ],
+  "confusion_matrix": [
+    [
+      1422,
+      780,
+      48
+    ],
+    [
+      762,
+      1444,
+      44
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "prediction_distribution": {
+    "allowed": 2184,
+    "dismissed": 2224,
+    "unknown": 92
+  },
+  "format_valid_rate": 0.9788888888888889,
+  "truncation_rate": 0.019333333333333334,
+  "mean_completion_tokens": 502.50377777777777,
+  "completion_token_percentiles": {
+    "p50": 499.0,
+    "p90": 574.0,
+    "p99": 640.0
+  },
+  "mean_R_total": 0.4890104117869479,
+  "mean_R_outcome": 0.6368888888888888,
+  "mean_R_issues": 0.6550256166915147,
+  "mean_R_rules": 0.45504773666658116,
+  "mean_R_authority": 0.0716768736147069,
+  "mean_R_coupling": 0.5053315609824658,
+  "mean_R_grounding": 0.999976892479524,
+  "mean_R_reasoning": 0.4842465880162573,
+  "component_orthogonality": {
+    "R_issues": {
+      "when_correct": 0.658792879798923,
+      "when_wrong": 0.648417920200812,
+      "delta": 0.010374959598110967
+    },
+    "R_rules": {
+      "when_correct": 0.45409191279477623,
+      "when_wrong": 0.4567242306791825,
+      "delta": -0.0026323178844062656
+    },
+    "R_authority": {
+      "when_correct": 0.06955406702135657,
+      "when_wrong": 0.07540022961014277,
+      "delta": -0.005846162588786202
+    },
+    "R_coupling": {
+      "when_correct": 0.5042992138476317,
+      "when_wrong": 0.5071422751124729,
+      "delta": -0.00284306126484124
+    },
+    "R_grounding": {
+      "when_correct": 0.9999820949792485,
+      "when_wrong": 0.9999677674096278,
+      "delta": 1.4327569620720126e-05
+    }
+  }
+}

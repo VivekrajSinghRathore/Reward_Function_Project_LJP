@@ -1,0 +1,19 @@
+{
+  "stage": "grpo_v3",
+  "credit_mode": "trajectory",
+  "num_generations": 8,
+  "temperature": 0.6,
+  "beta": 0.01,
+  "learning_rate": 2e-06,
+  "max_steps": 300,
+  "actual_steps": 300,
+  "elapsed_hours": 14.87124815887875,
+  "peak_gib": 18.638600826263428,
+  "metrics": {
+    "train_runtime": 53535.7008,
+    "train_samples_per_second": 0.538,
+    "train_steps_per_second": 0.006,
+    "total_flos": 0.0,
+    "train_loss": 0.007305206442251802
+  }
+}

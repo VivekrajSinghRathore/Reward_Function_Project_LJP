@@ -1,0 +1,20 @@
+{
+  "stage": "sft_v3",
+  "rows": 10008,
+  "world_size": 2,
+  "effective_batch": 24,
+  "expected_steps": 417,
+  "actual_steps": 417,
+  "conclusion_weight": 40.0,
+  "learning_rate": 0.0001,
+  "elapsed_hours": 1.1709690117835998,
+  "peak_gib": 11.450180053710938,
+  "metrics": {
+    "train_runtime": 4214.6815,
+    "train_samples_per_second": 2.375,
+    "train_steps_per_second": 0.099,
+    "total_flos": 2.2809546476172083e+17,
+    "train_loss": 8.524748328778383,
+    "epoch": 1.0
+  }
+}
